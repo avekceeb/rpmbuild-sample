@@ -1,0 +1,12 @@
+--- hello-world.c.orig	2022-03-24 17:40:56.140782900 +0300
++++ hello-world.c	2022-03-24 17:49:26.300782900 +0300
+@@ -1,7 +1,8 @@
+ #include <stdio.h>
+ 
+ int main() {
+-	printf("Hello World\n");
++	// Greeting
++	printf("Hello, Brand New World\n");
+ 	return 0;
+ }
+ 
