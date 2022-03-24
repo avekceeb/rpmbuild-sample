@@ -7,7 +7,7 @@
 #### Checkout sources
 	cd $HOME
 	mkdir rpmbuild
-	git clone https://<this repo> .
+	git clone https://github.com/avekceeb/rpmbuild-sample .
 
 #### Build
 	rpmbuild -ba SPECS/hello-world.spec
