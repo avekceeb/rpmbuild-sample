@@ -29,6 +29,7 @@ make
 make check
 
 %install
+export BINDIR=%{_bindir}
 %make_install
 
 %post

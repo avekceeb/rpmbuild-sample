@@ -1,4 +1,4 @@
-### Example: How To build rpm package
+## Example: How To build rpm package
 
 #### Prepare build tools
 	sudo yum install gcc rpm-build rpm-devel rpmlint make bash \
@@ -18,4 +18,8 @@
 #### Check and Remove
 	hello-world
 	sudo rpm -ev hello-world
+
+## Build and install without rpm
+    make
+    make DESTDIR=/opt BINDIR=hello-world/bin install
 
